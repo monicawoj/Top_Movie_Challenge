@@ -3,12 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>Making (Data-Driven) Movie Magic</title>
-    <script type="text/javascript" src="src/d3/d3.min.js"></script> <!--MAKE SURE TO LINK THIS TO LOCAL FILES, not online source-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script>
-    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-    <script src="src/nv.d3.js"></script>
-    <link href="src/nv.d3.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="src/d3/d3.min.js" charset="utf-8"></script>
+    <script src="src/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="src/d3/d3.min.js"></script> <!--for online use-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script> <!--for online use-->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="header">
@@ -16,11 +15,11 @@
 		<p id="byline">By: Monica Wojciechowski, adapted from dataset of Top 100 Grossing Movies (2014-2016)</p>
 		<h2 class="banner">So, you want to make a hit
 			<select id="dropdown">
-	 			<option value="Action">Action</option>
-	  			<option value="Comedy">Comedy</option>
-	  			<option value="Drama">Drama</option>
-	  			<option value="Adventure">Adventure</option>
-	  			<option value="Horror">Horror</option>
+				<option value="Action">Action</option>
+				<option value="Comedy">Comedy</option>
+				<option value="Drama">Drama</option>
+				<option value="Adventure">Adventure</option>
+				<option value="Horror">Horror</option>
 			</select>
 		 movie?</h2>
 	</div>
