@@ -1,5 +1,5 @@
 //setting up what will be used throughout
-d3.csv("movies", function(data) {
+d3.csv("movies.csv", function(data) {
 
 d3.select("container").attr("height",window.innerWidth);
 d3.select("container").attr("height",window.innerHeight/2);
