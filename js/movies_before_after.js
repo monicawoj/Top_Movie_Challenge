@@ -1,5 +1,5 @@
 //setting up what will be used throughout
-d3.csv("https://raw.githubusercontent.com/monicawoj/Top_Movie_Challenge/master/movies.csv?token=AOG1FIl1tl9i-EcBpwT7yKtNPYC5kQMFks5aMYJXwA%3D%3D", function(data) {
+d3.csv("movies", function(data) {
 
 d3.select("container").attr("height",window.innerWidth);
 d3.select("container").attr("height",window.innerHeight/2);
