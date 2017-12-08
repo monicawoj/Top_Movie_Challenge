@@ -1,0 +1,179 @@
+body {
+  background-color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  display:inline-block;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 3px solid hsl(210, 100%, 50%);
+  position: fixed;
+  background-color:white;
+  width: 100%;
+  z-index: 20;
+  background:inherit;
+}
+
+.content{
+  padding-top: 220px;
+  z-index: 5;
+  overflow:auto;
+}
+
+h1 {
+  background-color: hsl(210, 100%, 50%);
+  color: white;
+  font-size: 40px;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#byline {
+  color: hsl(210, 100%, 50%);
+  font-size: 14px;
+  text-align: center;
+  padding: 0;
+  z-index:19;
+  margin:0;
+}
+
+h2 {
+  color: hsl(210, 100%, 50%);
+  font-size: 36px;
+  line-height: 0.6em;
+  text-align: center;
+}
+
+.chart svg{
+  display:block;
+  margin:auto;
+  min-width:400px;
+  overflow:scroll;
+}
+
+.banner {
+  padding: 1px;
+}
+
+h3 {
+  color: hsl(210, 100%, 50%);
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+
+}
+
+h4 {
+  color: grey;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  padding: 5;
+  margin: 0;
+}
+
+p {
+  color: grey;
+  font-size: 20px;
+  line-height: 22px;
+  width: 100%;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.bottom{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+#first,#second{
+  display: inline-block;
+  width: 100%;
+  border-bottom: 2px dotted grey;
+  padding: 10px;
+  align-content: top;
+  overflow:hidden;
+  vertical-align:top;
+  max-height: 700px;
+}
+
+#third{
+  display: inline-block;
+  width: 100%;
+  overflow:hidden;
+  vertical-align: top;
+  max-height: 700px;
+}
+
+#dropdown {
+  display: inline;
+  font-size: 36px;
+  background-color:hsl(210, 100%, 60%);
+  color:white;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: dodgerblue;
+}
+
+.bar:hover {
+  fill: rgb(179, 255, 179) ;
+}
+
+.x.axis path {
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+/* Style for Studio Scatterplot */
+.dot {
+    stroke: none;
+}
+
+/* Style for tooltip for scatterplot of gross sales */
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    background-color: white;
+}

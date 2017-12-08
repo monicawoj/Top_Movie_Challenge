@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Making (Data-Driven) Movie Magic</title>
+    <script type="text/javascript" src="src/d3/d3.min.js"></script> <!--MAKE SURE TO LINK THIS TO LOCAL FILES, not online source-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="src/nv.d3.js"></script>
+    <link href="src/nv.d3.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+	<h1>Making (Data-Driven) Movie Magic</h1>
+		<p id="byline">By: Monica Wojciechowski, adapted from dataset of Top 100 Grossing Movies (2014-2016)</p>
+		<h2 class="banner">So, you want to make a hit
+			<select id="dropdown">
+	 			<option value="Action">Action</option>
+	  			<option value="Comedy">Comedy</option>
+	  			<option value="Drama">Drama</option>
+	  			<option value="Adventure">Adventure</option>
+	  			<option value="Horror">Horror</option>
+			</select>
+		 movie?</h2>
+	</div>
+ 	<div class="content">
+		<h4>Step 1: Pick the right partner</h4>
+			<p>Before you sign with a producer, it is critical that you consider the history of that studio's past success. Certain studios have created more Top 100 hits in different genres recent years than others. Which studio specializes in your genre?</p>
+			<div class = "chart" id="studio_scatter"></div>
+		<h2>So, you have a screenplay&hellip;</h2>
+		<h3>Once the footage is in, the edits are made, and the finished product is ready to be released, is there still some thinking to be done? Explore the visuals below to see how a focus on film branding and distribution might just help make some extra millions.</h3>
+			<div class="bottom" id="first">
+				<h4>Step 2: Give your movie a name the people can remember.</h4>
+				<p>Most of the top 100 movies in major genres have titles that are short and sweet - generally below 20 characters.</p>
+				<div class = "chart" id= "title_length"></div>
+			</div>
+			<div class="bottom" id="second">
+				<h4>Step 3: Release at the right time</h4>
+				<p>While movies released during all parts of the year can fall in the top ranks, certain periods of the year have seen more hits. An appropriately-timed release can further help make drive the success of your film's sales. For example, more horror films that have made the annual Top 100 were released in October (likely when people are in the haunted Halloween spirit.)</p>
+				<div class = "chart" id= "month_release"></div>
+			</div>
+			<div class="bottom" id="third">
+			<h4>Step 4: Make the most of week one</h4>
+				<p>Based on the plot below, we can clearly see that there is generally a linear relationship between a film's opening weekend gross sales and its annual gross sales. What exactly does this mean? Before the grand unveiling, you should think deeply about the appropriate Marketing strategy to aid in a successful opening weekend. Weekend One might just make all the difference!</p>
+				<div class = "chart" id="gross_sales"></div>
+			</div>
+			<h3>Final note to viewers and film scholars of society: while the information presented posits the existence of correlational relationships between various movie dimensions and their gross earnings, we would like to clearly communicate that this does not necessarily infer a causal relationship between those variables. By focusing on these visual insights, the hope is that the patterns above have sparked some further consideration around your potential screenplay and strategy. Fingers crossed for a well informed, data-driven blockbuster!</h3>
+	</div>
+<script src="js/movies_before_after.js"></script>
+<script src="js/makeTitleLengthVis.js"></script>
+<script src="js/makeStudioVis.js"></script>
+<script src="js/makeGrossSalesVis.js"></script>
+<script src="js/makeMonthReleaseVis.js"></script>
+</body>
+</html>
