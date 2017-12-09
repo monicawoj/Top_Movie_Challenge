@@ -64,11 +64,12 @@ h3 {
 }
 
 h4 {
-  color: grey;
+  color: black;
   font-size: 24px;
   font-weight: 700;
   text-align: left;
   margin-left:15px;
+  padding:0;
 }
 
 p {
