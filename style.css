@@ -63,8 +63,7 @@ h3 {
   font-size: 24px;
   font-weight: 300;
   text-align: center;
-  width: 100%;
-
+  width: 90%;
 }
 
 h4 {
@@ -72,6 +71,7 @@ h4 {
   font-size: 24px;
   font-weight: 700;
   text-align: left;
+  width: 90%
   padding: 5;
   margin: 0;
 }
@@ -80,7 +80,7 @@ p {
   color: grey;
   font-size: 20px;
   line-height: 22px;
-  width: 100%;
+  width: 90%;
   margin-left:10px;
   margin-right:10px;
 }
