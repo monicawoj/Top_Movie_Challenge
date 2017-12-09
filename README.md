@@ -1,6 +1,8 @@
 # Top_Movie_Challenge
 This collection of visualizations serves as a hub for interactive insights based on the top 100 grossing movies, by year, for 2014, 2015, and 2016. The dataset has been scrubbed from Box Office Mojo.
 
+I am happy to elaborate on the visualizations or any of the sections below by phone or in person if needed.
+
 ## Main Objective:
 A lot goes into making a movie. But a lot of thinking goes into it's production and distribution as well. These visuals seek to shed light on some characterstics of the top movies that can help aspiring filmmakers set themselves up for the largest succcess (apart from actual film quality.)
 
