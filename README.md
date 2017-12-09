@@ -23,6 +23,6 @@ I'd like to continue exploring the "before" and "after" of producing a hit movie
 
 It would also be interesting to look at other components such as language, lead actor, and lead actress in a movie as I would imagine these would also have a high effect on viewership.
 
-##Recommendations:
+## Recommendations:
 Best if viewed on desktop in Firefox or Chrome
 Click 'Refresh' on browser to re-scale visuals after resizing window
