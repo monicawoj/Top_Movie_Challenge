@@ -71,17 +71,15 @@ h4 {
   font-size: 24px;
   font-weight: 700;
   text-align: left;
-  width: 90%
-  padding: 5;
-  margin: 0;
+  margin-left:15px;
 }
 
 p {
   color: grey;
   font-size: 20px;
   line-height: 22px;
-  width: 90%;
-  margin-left:10px;
+  text-align:left;
+  margin-left:15px;
   margin-right:10px;
 }
 
@@ -95,7 +93,6 @@ p {
   width: 100%;
   border-bottom: 2px dotted grey;
   padding: 10px;
-  align-content: top;
   overflow:hidden;
   vertical-align:top;
   max-height: 700px;
@@ -104,6 +101,7 @@ p {
 #third{
   display: inline-block;
   width: 100%;
+  padding: 10px;
   overflow:hidden;
   vertical-align: top;
   max-height: 700px;
