@@ -50,7 +50,6 @@ h2 {
 .chart svg{
   display:block;
   margin:auto;
-  min-width:400px;
   overflow:scroll;
 }
 
@@ -88,7 +87,6 @@ p {
   padding: 10px;
   overflow:hidden;
   vertical-align:top;
-  max-height: 700px;
 }
 
 #third{
@@ -97,7 +95,6 @@ p {
   padding: 10px;
   overflow:hidden;
   vertical-align: top;
-  max-height: 700px;
 }
 
 #dropdown {
