@@ -4,8 +4,8 @@ var makeGrossSalesVis = function(data) {
     console.log(value);
 
     // Common pattern for defining vis size and margins
-    var margin = { top: 20, right: 50, bottom: 50, left: 40 },
-        width  = window.innerWidth/1.1 - margin.left - margin.right - 40,
+    var margin = { top: 20, right: 50, bottom: 50, left: 70 },
+        width  = window.innerWidth/1.1 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom;
 
     var format = d3.format(".2s");
@@ -13,10 +13,10 @@ var makeGrossSalesVis = function(data) {
 
     // Add the visualization svg canvas to the vis-container <div>
     var canvas = d3.select("#gross_sales").append("svg")
-        .attr("width",  width  + margin.left + margin.right + 40)
+        .attr("width",  width  + margin.left + margin.right)
         .attr("height", height + margin.top  + margin.bottom)
       .append("g")
-        .attr("transform", "translate(" + margin.left + 40"," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     // Define our scales
 
