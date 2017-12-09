@@ -13,10 +13,10 @@ var makeGrossSalesVis = function(data) {
 
     // Add the visualization svg canvas to the vis-container <div>
     var canvas = d3.select("#gross_sales").append("svg")
-        .attr("width",  width  + margin.left + margin.right)
+        .attr("width",  width  + margin.left + margin.right + 40)
         .attr("height", height + margin.top  + margin.bottom)
       .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + 40"," + margin.top + ")");
 
     // Define our scales
 
