@@ -80,11 +80,6 @@ p {
   margin-right:15px;
 }
 
-.bottom{
-  padding: 0 auto;
-  margin: 0 auto;
-}
-
 #first,#second{
   display: inline-block;
   width: 100%;
