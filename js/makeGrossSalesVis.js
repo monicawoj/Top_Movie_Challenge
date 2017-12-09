@@ -5,7 +5,7 @@ var makeGrossSalesVis = function(data) {
 
     // Common pattern for defining vis size and margins
     var margin = { top: 20, right: 50, bottom: 50, left: 40 },
-        width  = window.innerWidth/1.1 - margin.left - margin.right,
+        width  = window.innerWidth/1.1 - margin.left - margin.right - 40,
         height = 400 - margin.top - margin.bottom;
 
     var format = d3.format(".2s");
